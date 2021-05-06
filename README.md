@@ -8,6 +8,9 @@ conda env create --name ascc --file environment.yml
 
 # Data
 
+- Spacy
+python -m spacy download en
+
 - GloVe
 cd glove
 wget http://nlp.stanford.edu/data/glove.840B.300d.zip
